@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+h1{
+    color: rgb(220, 136, 190);
+    border-bottom: 2px solid rgb(220, 136, 190);
+}
+
+.navigation {
+    border-bottom: 2px solid rgb(220, 136, 190);
+    border-top: 2px solid rgb(220, 136, 190);
+    padding: 10px 0;
+    text-align: left;
+    color: white;
+}
