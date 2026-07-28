@@ -9,15 +9,20 @@ body{
     height: auto;
 }
 
-h1{
+h1,h2{
     color: rgb(220, 136, 190);
     border-bottom: 2px solid rgb(220, 136, 190);
 }
 
 .navigation {
-    border-bottom: 2px solid rgb(220, 136, 190);
     border-top: 2px solid rgb(220, 136, 190);
     padding: 10px 0;
     text-align: left;
     color: white;
+}
+
+footer{
+    border-top: 2px solid rgb(220, 136, 190);
+    padding: 20px 0;
+    color: rgb(220, 136, 190);
 }
