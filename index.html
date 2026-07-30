@@ -13,7 +13,7 @@
         <p>A self documented learning website where I document everything like a digital notebook about WebDev. </p>
         <p>Here in JellyDiary you can find baby steps and ELI5 explanations about every WebDev obstacle.</p>
     
-        <nav class="navigation" aria-label="Main navigation">
+        <nav class="navigation">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#contents">Contents</a></li>
@@ -22,30 +22,42 @@
             </ul>
         </nav>
     </header>
+
     <main id="main">
         <section id="home" class="section">
             <h2>Home</h2>
             <p>Welcome to the home section of JellyDiary!</p>
         </section>
 
-        <nav>
-            <section id="contents" class="section">
-                <h2>Contents</h2>
-                <p>Here you can find all the content organized in a structured manner.</p>
+        <section id="contents" class="section contents-section">
+            <h2>Contents</h2>
+            <nav class="contents-navbar">
+                <ul>
+                    <li><a href="#html">HTML</a></li>
+                    <li><a href="#css">CSS</a></li>
+                    <li><a href="#javascript">JavaScript</a></li>
+                </ul>
+            </nav>
+            <p>Here you can find all the content organized in a structured manner.</p>
+            <section id="html" class="subsection">
                 <h3 class="subheading">HTML</h3>
                 <p>Learn the basics of HTML and how to structure your web pages.</p>
+            </section>
+            <section id="css" class="subsection">
                 <h3 class="subheading">CSS</h3>
                 <p>Learn the basics of CSS and how to style your web pages.</p>
+            </section>
+            <section id="javascript" class="subsection">
                 <h3 class="subheading">JavaScript</h3>
                 <p>Learn the basics of JavaScript and how to add interactivity to your web pages.</p>
             </section>
-        </nav>
+        </section>
 
         <section id="about" class="section">
             <h2>About</h2>
             <p>Learn more about JellyDiary and its purpose.</p>
         </section>
-        <!-- Removed duplicate 'content' section (use 'contents' above). -->
+        
         <section id="contact" class="section">
             <h2>Contact</h2>
             <p>If you have questions or feedback, reach out:</p>
